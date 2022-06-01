@@ -1,5 +1,7 @@
 {
-  "name": "cv",
-  "integrations": {},
+  "name": "ionic4-firebase-crud",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

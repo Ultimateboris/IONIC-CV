@@ -1,0 +1,107 @@
+<!-- <div id ="container">
+<div class="row">
+  <div class="col">
+    <div class="leftbox">
+         <p>qui j'suis en image :</p>
+        <img src="/assets/img/tof.jpg" alt="">
+         <p>mes reseau :</p>
+        <div class="photoReseau">
+       <a href=""><img src="/assets/img/stackoverflow.png" alt=""></a>
+       <a href=""><img src="/assets/img/github.png" alt=""></a>
+      <a href=""><img src="/assets/img/link.png" alt=""></a>
+       </div>
+          <p class="p3">mes information :</p>
+       <div class="information">
+  
+       </div>
+    </div> 
+  </div>
+  <div class="col">
+     <div class="rightbox">
+         <div class="bn">
+      <p>competence</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">ajouter</a>
+    </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+  <div>
+    <br>
+</div> -->
+<div class="container">
+      <div class="row">
+        <div class="col-md">
+          <!--  -->
+          <div class="jumbotron">
+              <p>qui j'suis en image :</p>
+              <img  [src]="urllink" >
+               <!-- <input type="file" class="btn" (change)="selectFiles($event)" hidden> -->
+              <p>mes reseau :</p>
+              <div class="photoReseau">
+             <a href=""><img src="/assets/img/stackoverflow.png" alt=""></a>
+             <a href=""><img src="/assets/img/github.png" alt=""></a>
+            <a href=""><img src="/assets/img/link.png" alt=""></a>
+             </div>
+                <p class="p3">mes information :</p>
+             <div class="information">
+                 <div *ngFor="let data of info.orders.data" > 
+                  <P>{{data.nom}}</P>
+                 </div> 
+               
+             </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-md ">
+          <div class="jumbotron1">
+            <h3>competence :</h3>
+              <!-- <div class="a"> -->
+              <a class="btn btn-primary btn-md" href="#" role="button">ajouter</a>
+              <!-- </div>  -->
+             <div class="information">
+            </div> 
+           </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div><br></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
